@@ -9,8 +9,8 @@ disable_warnings(InsecureRequestWarning)
 # YOUR CREDENTIALS
 # ==========================
 
-USERNAME = "YOUR_USERNAME"
-PASSWORD = "YOUR_PASSWORD"
+USERNAME = input("Username: ")
+PASSWORD = input("Password: ")
 
 # ==========================
 # SESSION
